@@ -213,7 +213,14 @@ div>span {
 /*============= ABOUT PAGE==============*/
 
 .about {
-  padding: 0 210px;
+  font-family: 'Merriweather', serif;
+}
+
+.about>section {
+  padding: 0 220px;
+  margin-top: 40px;
+  font-size: 15px;
+  line-height: 32px;
 }
 
 section>img {
@@ -223,8 +230,30 @@ section>img {
 }
 
 .about p {
-  font-size: 15px;
-  line-height: 32px;
+  margin-bottom: 35px;
+}
+
+blockquote {
+  padding-left: 25px;
+  color: #79795b;
+  border-left: 1px solid #79795b;
+  font-style: italic;
+  margin-bottom: 35px;
+}
+
+.about h3 {
+  text-align: left;
+  margin-top: 55px;
+  margin-bottom: 20px;
+}
+
+.room {
+  width: 150%;
+  min-height: 500px;
+  background-image: url(img/background-3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-clip: content-box;
 }
 
 
