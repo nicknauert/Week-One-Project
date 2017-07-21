@@ -23,23 +23,27 @@ Input Border Bottom (Focus): #967343
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+
+/*=====NAV AND HEADER=======*/
+
+header {
+  font-family: 'Roboto', sans-serif;
+  font-size: 110%;
+  text-transform: uppercase;
+  background-color: white;
 }
 
 nav {
-  border: 1px dashed green;
   width: 100%;
   max-height: 55px;
 }
 
-header>img {
-  float: left;
-  margin-top: 4px;
-  ;
-}
-
 .nav-items {
-  border: 1px dashed red;
   min-height: 55px;
+  padding: 0 355px;
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
@@ -52,9 +56,38 @@ header>img {
 }
 
 #logo {
+  float: left;
+  margin-top: 5px;
+  margin-left: 8px;
   max-width: 45px;
-  border: 1px dashed red;
 }
+
+
+/*======== BODY ========*/
+
+body {
+  background-color: #F2F1E8;
+}
+
+h1 {
+  margin: 0 auto;
+  margin-top: 35px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+  font-size: 65px;
+}
+
+h3 {
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+  font-size: 33px;
+  margin-top: 5px;
+  margin-bottom: 35px;
+}
+
+main {}
 
 
 /* ========================
