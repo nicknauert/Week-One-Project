@@ -55,6 +55,19 @@ nav {
   list-style: none;
 }
 
+.nav-items a {
+  text-decoration: none;
+  color: #2B2F26;
+}
+
+.nav-items a:hover {
+  color: #CD5D67;
+}
+
+.nat-items a:active {
+  color: #968772;
+}
+
 #logo {
   float: left;
   margin-top: 5px;
@@ -76,6 +89,7 @@ h1 {
   font-family: 'Merriweather', serif;
   font-weight: 300;
   font-size: 65px;
+  color: #131511;
 }
 
 h3 {
@@ -85,6 +99,7 @@ h3 {
   font-size: 33px;
   margin-top: 5px;
   margin-bottom: 35px;
+  color: #131511;
 }
 
 main {
@@ -93,7 +108,7 @@ main {
 
 .row-1 {
   display: flex;
-  min-height: 250px;
+  min-height: 300px;
   flex-flow: row nowrap;
   justify-content: space-around;
   margin-bottom: 15px;
@@ -101,6 +116,8 @@ main {
 
 #last-col-1 {
   margin-right: 0;
+  background-image: url(img/product-3.jpg);
+  background-size: cover;
 }
 
 .col-6 {
@@ -117,7 +134,7 @@ main {
 
 .row-2 {
   display: flex;
-  min-height: 200px;
+  min-height: 210px;
   flex-flow: row nowrap;
   justify-content: space-around;
   margin-bottom: 15px;
@@ -131,10 +148,16 @@ main {
 
 #last-col-2 {
   margin-right: 0;
+  background-image: url(img/product-7.jpg);
+  background-size: cover;
 }
 
 .row-1>div {
-  padding-top: 205px;
+  padding-top: 255px;
+}
+
+.row-2>div {
+  padding-top: 165px;
 }
 
 div>span {
@@ -143,6 +166,35 @@ div>span {
   text-align: left;
   position: bottom;
   padding: 10px;
+}
+
+
+/*=========== imgs for bgs ===========*/
+
+#endless {
+  background-image: url(img/product-1.jpg);
+  background-size: cover;
+}
+
+#sets {
+  background-image: url(img/product-2.jpg);
+  background-size: cover;
+  background-position: 0 -30px;
+}
+
+#tea {
+  background-image: url(img/product-4.jpg);
+  background-size: cover;
+}
+
+#jars {
+  background-image: url(img/product-5.jpg);
+  background-size: cover;
+}
+
+#wasabi {
+  background-image: url(img/product-6.jpg);
+  background-size: cover;
 }
 
 
