@@ -115,7 +115,7 @@ h3 {
 }
 
 main {
-  margin: 15px;
+  padding: 15px;
 }
 
 .row-1 {
@@ -214,6 +214,7 @@ div>span {
 
 .about {
   font-family: 'Merriweather', serif;
+  padding: 0;
 }
 
 .about>section {
@@ -248,12 +249,47 @@ blockquote {
 }
 
 .room {
-  width: 150%;
-  min-height: 500px;
+  width: 100%;
+  min-height: 300px;
   background-image: url(img/background-3.jpg);
   background-size: cover;
-  background-position: center;
-  background-clip: content-box;
+  background-position: 0 -110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 56px;
+  color: white;
+}
+
+.aside {
+  float: right;
+  width: 135px;
+  font-size: 10px;
+  color: #79795b;
+  line-height: 20px;
+}
+
+#shelf {
+  width: 135px;
+}
+
+table {
+  border-collapse: collapse;
+  margin-bottom: 40px;
+}
+
+.th {
+  text-align: center;
+  border: 1px solid #2f3928;
+}
+
+td {
+  padding: 8px 15px;
+  border: 1px solid #2f3928;
+}
+
+.color-row {
+  background-color: #ede1d0;
 }
 
 
