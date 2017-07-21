@@ -75,12 +75,17 @@ nav {
   max-width: 40px;
 }
 
+
+/* Come back to this
+
 #logo:hover {
   content: url(img/bent-creek-logo-coral.png);
   margin-top: 7px;
   margin-left: 8px;
   max-width: 40px
 }
+
+*/
 
 
 /*======== BODY ========*/
@@ -202,6 +207,24 @@ div>span {
 #wasabi {
   background-image: url(img/product-6.jpg);
   background-size: cover;
+}
+
+
+/*============= ABOUT PAGE==============*/
+
+.about {
+  padding: 0 210px;
+}
+
+section>img {
+  float: left;
+  max-width: 100px;
+  margin-right: 15px;
+}
+
+.about p {
+  font-size: 15px;
+  line-height: 32px;
 }
 
 
