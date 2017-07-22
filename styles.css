@@ -299,14 +299,16 @@ td {
 
 .newsletter {
   background-image: url(img/background-2.jpg);
+  background-size: cover;
+  height: 700px;
 }
 
 .form-cont {
   background-color: white;
-  width: 52%;
-  margin: 0 auto;
+  width: 50%;
+  margin: 40px auto;
+  padding: 40px 25px 25px 25px;
   text-align: center;
-  padding: 50px 25px 25px 25px;
 }
 
 .form-cont h3 {
@@ -315,14 +317,16 @@ td {
 }
 
 .form-cont p {
-  font-size: 25px;
-  margin-bottom: 31px;
+  font-size: 24px;
 }
 
 .form {
   width: 100%;
   font-family: 'Roboto', sans-serif;
-  font-size: 22px;
+  font-weight: 300;
+  font-size: 21px;
+  color: #968772;
+  text-align: left;
 }
 
 .input-bar {
@@ -334,9 +338,26 @@ td {
   border: none;
 }
 
-input[type:button] {
-  width: 60px;
+input[type=text] {
+  height: 20px;
+  margin: 50px 0 0 5px;
+}
+
+input[type=text]:focus {
+  border: none;
+}
+
+.submit-cont {
+  text-align: center;
+}
+
+#submit {
+  width: auto;
+  padding: 14px 30px;
   background-color: #968772;
+  font-size: 18px;
+  color: white;
+  margin: 25px 0 0 0;
 }
 
 
