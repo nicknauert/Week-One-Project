@@ -43,7 +43,7 @@ nav {
 
 .nav-items {
   min-height: 55px;
-  padding: 0 355px;
+  padding: 0 375px;
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
@@ -292,6 +292,51 @@ td {
 
 .color-row {
   background-color: #ede1d0;
+}
+
+
+/*============ NEWSLETTER ============*/
+
+.newsletter {
+  background-image: url(img/background-2.jpg);
+}
+
+.form-cont {
+  background-color: white;
+  width: 52%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px 25px 25px 25px;
+}
+
+.form-cont h3 {
+  font-size: 29px;
+  margin-bottom: 21px;
+}
+
+.form-cont p {
+  font-size: 25px;
+  margin-bottom: 31px;
+}
+
+.form {
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+}
+
+.input-bar {
+  border-bottom: 1px solid #968772;
+}
+
+.form input {
+  width: 83%;
+  border: none;
+}
+
+input[type:button] {
+  width: 60px;
+  background-color: #968772;
 }
 
 
